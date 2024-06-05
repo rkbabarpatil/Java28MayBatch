@@ -23,9 +23,27 @@ public class StatementDemo {
 			System.out.println("You are not Eligible For voting");
 		}
 	}
+	static void ifelseifDemo() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 1st number = ");
+		int a = sc.nextInt();
+		System.out.println("Enter 2nd number = ");
+		int b = sc.nextInt();
+		System.out.println("Enter 3rd number = ");
+		int c = sc.nextInt();
+		if(a>b && a>c) {
+			System.out.println("A is greater");
+		}else if (b>a && b>c) {
+			System.out.println("b is greater");
+		}else if(c>a && c>a){
+			System.out.println("c is greater");
+		}else {
+			System.out.println("all numbers are equal");
+		}
+	}
 	public static void main(String[] args) {
 		//ifDemo();
-		ifElseDemo();
-		
+		//ifElseDemo();
+		ifelseifDemo();
 	}
 }
