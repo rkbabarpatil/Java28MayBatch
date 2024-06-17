@@ -82,9 +82,9 @@ public class LoopingStatementDemo {
 		System.out.println("End of Program...");
 	}
 	public static void main(String[] args) {
-		//forLoopDemo();
-		//forLoopDemoTwo();
-		//doWhileDemo();
-		switchCaseDemo();
+		forLoopDemo();
+		forLoopDemoTwo();
+		doWhileDemo();
+//		switchCaseDemo();
 	}
 }
