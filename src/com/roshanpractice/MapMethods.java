@@ -32,4 +32,5 @@ public class MapMethods {
 		System.out.println("H2 map = "+h2);
 		
 	}
+	
 }
